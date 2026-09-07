@@ -1,28 +1,139 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Chuma Gqodi | Portfolio</title>
+
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <div class="header">
-        <h1>My Portfolio</h1>
-        <!-- Navigation missing -->
-    </div>
-    
-    <div class="hero">
-        <h2>Welcome to My Portfolio</h2>
-        <p>I am a web developer passionate about creating beautiful websites.</p>
-        <img src="images/hero.jpg">
-    </div>
-    
-    <div class="intro">
-        <h2>About Me</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
-    
-    <div class="footer">
-        <p>Contact me at email@example.com</p>
-    </div>
+
+    <header>
+        <div class="logo">
+            Chuma Gqodi Software Engineer
+        </div>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li>
+                    <a href="index.html" aria-current="page">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="about.html">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="projects.html">
+                        Projects
+                    </a>
+                </li>
+
+                <li>
+                    <a href="contact.html">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="banner">
+            <div class="overlay">
+                <h3>Welcome to My Portfolio</h3>
+
+                <h1>
+                    Chuma Gqodi <br>
+                    Junior Software Engineer
+                </h1>
+
+                <p>
+                    Junior Software Developer skilled in HTML, CSS,
+                    JavaScript, React, and Git/GitHub — passionate about
+                    building responsive, user-friendly web applications.
+                </p>
+
+                <div class="cta-group">
+                    <a href="projects.html" class="btn-primary">
+                        View my work
+                    </a>
+
+                    <a href="contact.html" class="btn-secondary">
+                        Get in touch
+                    </a>
+                </div>
+            </div>
+
+            <div class="profile-image">
+                <img
+                    src="images/chuma-profile.jpg"
+                    alt="Chuma Gqodi, Junior Software Engineer"
+                >
+            </div>
+        </section>
+
+        <section class="skills tech-stack-card">
+            <div class="tech-stack-header">
+                <h2>Tech Stack</h2>
+
+                <a href="about.html" class="see-all">
+                    See all &rarr;
+                </a>
+            </div>
+
+            <div class="skill-list">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Version Control</span>
+                <span>Basic &amp; Advanced React</span>
+                <span>Principles of UX/UI Design</span>
+                <span>Front-End Development</span>
+            </div>
+        </section>
+
+        <section class="featured-project">
+            <img
+                src="images/Little lemon project.png"
+                alt="Screenshot of the Little Lemon restaurant homepage"
+            >
+
+            <div class="featured-text">
+                <h3>Featured Project: Little Lemon</h3>
+
+                <p>
+                    A responsive restaurant website with menu, booking,
+                    and contact sections.
+                </p>
+            </div>
+
+            <a href="projects.html" class="see-all">
+                See all &rarr;
+            </a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            &copy; 2026 Chuma Gqodi. All rights reserved.
+        </p>
+    </footer>
+
 </body>
+
 </html>
