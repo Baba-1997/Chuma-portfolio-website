@@ -1,34 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
     <title>Contact | Chuma Gqodi</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+
     <header>
-        <div class="logo">Chuma Gqodi Software Engineer</div>
-        <nav>
+        <div class="logo">
+            Chuma Gqodi Software Engineer
+        </div>
+
+        <nav aria-label="Main navigation">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+
+                <li>
+                    <a href="projects.html">Projects</a>
+                </li>
+
+                <li>
+                    <a href="contact.html" aria-current="page">Contact</a>
+                </li>
             </ul>
         </nav>
     </header>
 
     <main>
-        
+
         <section class="banner">
             <div class="overlay">
                 <h3>Contact</h3>
+
                 <h1>Get In Touch</h1>
-                <p>Have a project in mind or just want to say hi? Fill out the form below and I'll get back to you as soon as I can.</p>
+
+                <p>
+                    Have a project in mind or just want to say hi? Fill out the
+                    form below and I'll get back to you as soon as I can.
+                </p>
             </div>
+
             <div class="profile-image">
-                <img src="images/chuma-about.jpg" alt="Chuma Gqodi">
+                <img
+                    src="images/chuma-about.jpg"
+                    alt="Chuma Gqodi, Junior Software Engineer"
+                >
             </div>
         </section>
 
@@ -39,17 +68,33 @@
                 <div class="form-row">
                     <div class="form-group">
                         <label for="name">Full Name</label>
-                        <input type="text" id="name" name="name" placeholder="Your full name" required minlength="2">
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Your full name"
+                            required
+                            minlength="2"
+                        >
                     </div>
 
                     <div class="form-group">
                         <label for="email">Email Address</label>
-                        <input type="email" id="email" name="email" placeholder="Your email address" required>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Your email address"
+                            required
+                        >
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label for="subject">Subject</label>
+
                     <select id="subject" name="subject" required>
                         <option value="">Select a subject</option>
                         <option value="project">Project Inquiry</option>
@@ -58,35 +103,96 @@
                     </select>
                 </div>
 
+                <div class="form-group">
+                    <label for="message">Message</label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        placeholder="Write your message"
+                        required
+                        minlength="10"
+                    ></textarea>
+                </div>
+
                 <fieldset class="radio-group">
                     <legend>Preferred Contact Method</legend>
+
                     <label for="contact-email" class="radio-option">
-                        <input type="radio" id="contact-email" name="contact-method" value="email" required>
+                        <input
+                            type="radio"
+                            id="contact-email"
+                            name="contact-method"
+                            value="email"
+                            required
+                        >
                         Email
                     </label>
+
                     <label for="contact-phone" class="radio-option">
-                        <input type="radio" id="contact-phone" name="contact-method" value="phone">
+                        <input
+                            type="radio"
+                            id="contact-phone"
+                            name="contact-method"
+                            value="phone"
+                        >
                         Phone
                     </label>
                 </fieldset>
 
-                <button type="submit" class="btn-primary">Send Message</button>
+                <button type="submit" class="btn-primary">
+                    Send Message
+                </button>
             </form>
         </section>
 
         <section class="skills">
             <h2>Other Ways to Reach Me</h2>
+
             <div class="contact-details">
-                <p><span class="contact-label">Contact Number</span>067-136-7950</p>
-                <p><span class="contact-label">Email</span>chuma.gqodi@umuzi.org</p>
-                <p><span class="contact-label">LinkedIn</span><a href="https://www.linkedin.com/in/chumagqodi/" target="_blank" rel="noopener noreferrer">linkedin.com/in/chumagqodi</a></p>
-                <p><span class="contact-label">GitHub</span><a href="https://github.com/Baba-1997" target="_blank" rel="noopener noreferrer">Baba-1997</a></p>
+                <p>
+                    <span class="contact-label">Contact Number</span>
+                    067-136-7950
+                </p>
+
+                <p>
+                    <span class="contact-label">Email</span>
+                    <a href="mailto:chuma.gqodi@umuzi.org">
+                        chuma.gqodi@umuzi.org
+                    </a>
+                </p>
+
+                <p>
+                    <span class="contact-label">LinkedIn</span>
+                    <a
+                        href="https://www.linkedin.com/in/chumagqodi/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        linkedin.com/in/chumagqodi
+                    </a>
+                </p>
+
+                <p>
+                    <span class="contact-label">GitHub</span>
+                    <a
+                        href="https://github.com/Baba-1997"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Baba-1997
+                    </a>
+                </p>
             </div>
         </section>
+
     </main>
 
     <footer>
         <p>&copy; 2026 Chuma Gqodi. All rights reserved.</p>
     </footer>
+
 </body>
+
 </html>
