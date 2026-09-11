@@ -1,27 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
     <title>Projects | Chuma Gqodi</title>
-
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
     <header>
-        <div class="logo">Chuma Gqodi Software Engineer</div>
+        <p class="logo">
+            Chuma Gqodi Software Engineer
+        </p>
 
         <nav aria-label="Main navigation">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
                 <li>
-                    <a href="projects.html" aria-current="page">Projects</a>
+                    <a href="index.html">Home</a>
                 </li>
-                <li><a href="contact.html">Contact</a></li>
+
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+
+                <li>
+                    <a href="projects.html" aria-current="page">
+                        Projects
+                    </a>
+                </li>
+
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -29,7 +44,7 @@
     <main>
         <section class="skills">
 
-            <div class="projects-intro">
+            <header class="projects-intro">
                 <span>My Work</span>
 
                 <h1>Projects That Showcase My Skills</h1>
@@ -40,17 +55,17 @@
                     from responsive websites built with HTML and CSS to UX/UI
                     design principles and interactive React applications.
                 </p>
-            </div>
+            </header>
 
             <h2>My Projects</h2>
 
-            <div class="project-card">
+            <article class="project-card">
                 <img
                     src="images/Little-lemon-project.png"
-                    alt="My responsive portfolio website"
+                    alt="Preview of my responsive portfolio website"
                 >
 
-                <div>
+                <header class="project-information">
                     <h3>Portfolio Website</h3>
 
                     <p>
@@ -66,16 +81,16 @@
                     >
                         View on Coursera
                     </a>
-                </div>
-            </div>
+                </header>
+            </article>
 
-            <div class="project-card">
+            <article class="project-card">
                 <img
                     src="images/figma.png"
-                    alt="My UX/UI wireframe created in Figma"
+                    alt="My UX/UI portfolio wireframe created in Figma"
                 >
 
-                <div>
+                <header class="project-information">
                     <h3>UX/UI Wireframe Design</h3>
 
                     <p>
@@ -92,16 +107,16 @@
                     >
                         View Figma Design
                     </a>
-                </div>
-            </div>
+                </header>
+            </article>
 
-            <div class="project-card">
+            <article class="project-card">
                 <img
                     src="images/Little-lemon.png"
                     alt="Little Lemon restaurant website displayed on a laptop and mobile phone"
                 >
 
-                <div>
+                <header class="project-information">
                     <h3>Little Lemon Restaurant Website</h3>
 
                     <p>
@@ -118,8 +133,8 @@
                     >
                         View on GitHub
                     </a>
-                </div>
-            </div>
+                </header>
+            </article>
 
         </section>
     </main>
@@ -129,4 +144,5 @@
     </footer>
 
 </body>
+
 </html>
